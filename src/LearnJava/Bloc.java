@@ -1,10 +1,10 @@
 package LearnJava;
 
-public class Bloc {
+public abstract class Bloc {
 	
-	private int longueur;
-	private int largeur;
-	private int hauteur;
+	protected int longueur;
+	protected int largeur;
+	protected int hauteur;
 	
 	Bloc(final int longueur, final int largeur, final int hauteur) {
 		this.longueur = longueur;
